@@ -1,0 +1,5 @@
+pytz==2017.2
+requests==2.13.0
+six==1.10.0
+slackclient==1.0.5
+websocket-client==0.40.0
