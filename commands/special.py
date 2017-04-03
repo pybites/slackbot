@@ -32,9 +32,9 @@ def celebration():
     if today_is_special_day():
         whatday = 'birthday' if AGE_DAYS % DAYS_IN_YEAR == 0 else 'celebration day'
         subject = 'Happy {}!'.format(whatday)
-        message = 'PyBitesexists {} days today, go celebrate!'.format(AGE_DAYS)
+        message = 'PyBites exists {} days today, go celebrate!'.format(AGE_DAYS)
     else:
-        message = 'No ... days till next birtday: {}'.format(days_till_special_day())
+        message = 'No ... days till next birtday: {}, now get back to work!'.format(days_till_special_day())
     return message
 
 
